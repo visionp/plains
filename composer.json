@@ -1,0 +1,22 @@
+{
+    "name": "visionp/plains",
+    "description": "Test task",
+    "type": "project",
+    "require": {
+        "php": "8.*"
+    },
+    "minimum-stability": "dev",
+    "require-dev": {
+        "phpunit/phpunit": "10.0.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Plains\\": "lib/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Plains\\Tests\\": "tests/"
+        }
+    }
+}
