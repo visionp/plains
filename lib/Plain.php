@@ -18,7 +18,6 @@ class Plain implements PlainInterface
 
     public function can(ConditionsBag $airportParams): bool
     {
-        $airportParams = clone $airportParams;
         return $this->specification->isSatisfiedBy($airportParams);
     }
 }
