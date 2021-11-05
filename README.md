@@ -1,3 +1,12 @@
+The task is to build the structure of classes and methods for:
+1) Airplane Aeroprakt A-24 2) Airplane Curtiss NC-4 3) Airplane Boeing 747
+   Considerations
+1) They can all takeoff, fly, and land.
+2) Aeroprakt A-24 and Boeing 747 have wheels, meaning they can takeoff and land on a runway.
+3) Curtiss NC-4 and Aeroprakt A-24 can takeoff and land on water.
+4) Aeroprakt A-24 and Curtiss NC-4 can only fly in the daytime and in good weather. 5) Boeing 747 can fly at any time and in any weather.
+
+
 Example:
 
 ```
